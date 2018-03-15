@@ -2,6 +2,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SBProtoSettings : CCUIToggleModule
-@property (nonatomic, assign, readwrite) BOOL EzSecretSettings;
+@property (nonatomic, assign, readwrite) BOOL ezSecretSettings;
 @end
 
