@@ -35,10 +35,10 @@
 - (void)setSelected:(BOOL)selected {
     self.ezSecretSettings = selected;
     [super refreshState];
-  [self ezSecretSettings];
+  [self exec_ezSecretSettings];
 }
 
-- (void)ezSecretSettings {
+- (void)exec_ezSecretSettings {
 [[SBPrototypeController sharedInstance] _showSettings];
 }
 @end
