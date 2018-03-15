@@ -12,10 +12,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@implementation SBPrototypeController
-
-
-@end
 
 
 @interface UIImage ()
