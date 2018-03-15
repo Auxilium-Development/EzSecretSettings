@@ -9,6 +9,7 @@
 // LibActivator by Ryan Petrich
 // See https://github.com/rpetrich/libactivator
 #import "SBPrototypeController.h"
+#import "SBProtoSettings.h"
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
