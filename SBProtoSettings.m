@@ -42,6 +42,6 @@
 }
 
 - (void)exec_ezSecretSettings {
-[[SBPrototypeController sharedInstance] _showSettings];
+[[%c(SBPrototypeController) sharedInstance] _showSettings];
 }
 @end
