@@ -8,11 +8,14 @@
 
 // LibActivator by Ryan Petrich
 // See https://github.com/rpetrich/libactivator
-#import "SBPrototypeController.h"
+// #import "SBPrototypeController.h"
 #import "SBProtoSettings.h"
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+@interface SBPrototypeController : NSObject
++ (id)sharedInstance;
+- (void)_showSettings;
+@end
 
 
 @interface UIImage ()
